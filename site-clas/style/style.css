@@ -103,3 +103,15 @@ carousel-inner{
     margin-left: 50px;
     margin-right: 50px;
 }
+#conteudoLogin{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#login{
+    margin: 20px;
+    border: #c82333 solid 2px;
+    padding: 10px;
+    text-align: center;
+    display: grid;
+    
+}
