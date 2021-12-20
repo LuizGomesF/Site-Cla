@@ -1,0 +1,97 @@
+body{
+    font-family: 'Lalezar', cursive;
+    background-color: whitesmoke;
+}
+.fixed-top{
+    
+    padding-bottom: 15px;
+}
+.btn btn-primary{
+    margin-left: 50px;
+}
+#miniMenu{
+    text-align: right;
+}
+#gridCabeca{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 30px;
+}
+#logoCabeca{
+    text-align: center;
+}
+#sobrepor{
+    height: 280px;
+    width: 100%;
+}
+#banner{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 400px;
+}
+carousel-inner{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#conteudoHome{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-top: 200px;
+}
+#clasRecomendados{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+#cla1{
+    margin: 40px;
+    height: 400px;
+    width: 200px;
+    
+}
+#cla2{
+    margin: 40px;
+    height: 400px;
+    width: 200px;
+}
+#cla3{
+    margin: 40px;
+    height: 400px;
+    width: 200px;
+}
+#cla4{
+    margin: 40px;
+    height: 400px;
+    width: 200px;
+}
+#rodape{
+    background-color: #c82333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 80px;
+}
+#logoRodape{
+    text-align: center;
+   margin-bottom: 15px;
+}
+#conteudoAjuda{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.linkCla{
+    text-decoration: none;
+    color: #c82333;
+}
+.linkCla :hover{
+    color: rgb(156, 28, 41);
+}
+.paragrafoSobre{
+    text-align: center;
+}
+#imagemSobre{
+    width: 50%;
+}
