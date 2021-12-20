@@ -41,25 +41,29 @@ carousel-inner{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+#conteudoClas{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+}
 #cla1{
     margin: 40px;
-    height: 400px;
+    height: 500px;
     width: 200px;
     
 }
 #cla2{
     margin: 40px;
-    height: 400px;
+    height: 500px;
     width: 200px;
 }
 #cla3{
     margin: 40px;
-    height: 400px;
+    height: 500px;
     width: 200px;
 }
 #cla4{
     margin: 40px;
-    height: 400px;
+    height: 500px;
     width: 200px;
 }
 #rodape{
